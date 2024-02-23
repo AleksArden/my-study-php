@@ -4,18 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title><?= 'Lesson 10' ?></title>
 </head>
 
 <body>
-
-    <h1>This is PHP demo</h1>
-
     <?php
-    echo "Hello to everyone from PHP"
-    ?>
+    echo round(21.88815669896555, 2)
 
-    <?php phpinfo(INFO_MODULES); ?>
+    ?>
 </body>
 
 </html>

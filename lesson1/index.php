@@ -8,14 +8,9 @@
 </head>
 
 <body>
-
-    <h1>This is PHP demo</h1>
-
     <?php
-    echo "Hello to everyone from PHP"
+    echo "Hello world!!!"
     ?>
-
-    <?php phpinfo(INFO_MODULES); ?>
 </body>
 
 </html>
