@@ -4,29 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= 'Lesson 13' ?></title>
+    <title><?= 'Lesson 15' ?></title>
 </head>
 
 <body>
     <?php
-    require 'point.php';
-    $first = new Point;
-    $first->x = 13;
-    $first->y = 13;
-
-    // $second = $first;
-    $second = clone $first;
-
-    $second->x = 99;
-    $second->y = 99;
-
-    echo  "x: {$first->x}, y: {$first->y}";
-    echo "<br>";
-    echo "x: {$second->x}, y: {$second->y}";
-
-    ?>
-    '<br>';
-    <?php
+    echo 'Way to the file' . __DIR__ . '<br>';
+    // require_once __DIR__ . '/../lesson13/point.php';
+    require_once  '../lesson13/point.php';
 
     $p1 = new Point;
     $p1->x = 10;
@@ -42,7 +27,16 @@
 
     echo $distance;
     ?>
-
+    '<br>'
+    <?php
+    class ConstClass
+    {
+        const NAME = 'str';
+    }
+    if (defined('ConstClass::NAME')) {
+        echo 'const was created';
+    }
+    ?>
 </body>
 
 </html>
