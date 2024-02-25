@@ -12,21 +12,22 @@
     $bool = true;
     $str = "Hello '123456'";
     $num = 5;
-    echo $str;
-    echo "HHHHHhhhhhh - $num";
-    echo "HHHHHhhhhhh - \$num";
-    echo "HHHHHhhhhhh - \"$num\"";
-    echo "HHHHHhhhhhh - {$num}y";
+    var_dump($str);
+    var_dump("HHHHHhhhhhh - $num");
+    var_dump("HHHHHhhhhhh - \$num");
+    var_dump("HHHHHhhhhhh - \$num");
+    var_dump("HHHHHhhhhhh - \$num");
+    var_dump("HHHHHhhhhhh - \"$num\"");
+    var_dump("HHHHHhhhhhh - {$num}y");
     // echo `dir`;
     ?>
     <br>
     <?php
-    $user = "Aleks";
+    // $user = "Aleks";
     if (isset($user))
-        echo "True";
+        var_dump("True");
     else
-        echo "False"
-
+        var_dump(false)
     ?>
     <br>
     <?php

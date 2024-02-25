@@ -16,6 +16,9 @@
     ?>
 
     <?php phpinfo(INFO_MODULES); ?>
+
+
+
 </body>
 
 </html>
